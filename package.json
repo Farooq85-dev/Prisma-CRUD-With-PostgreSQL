@@ -1,0 +1,22 @@
+{
+  "name": "Prisma-With-PostgreSQL",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/Farooq85-dev/Prisma-With-PostgreSQL.git",
+  "author": "Muhammad Farooq <irfankhans786787788@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "start": "node build/server.js",
+    "start:dev": "tsc-watch --onSuccess \"node build/server.js\""
+  },
+  "dependencies": {
+    "express": "^4.21.1"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.1",
+    "nodemon": "^3.1.7",
+    "prisma": "^5.22.0",
+    "tsc-watch": "^6.2.1",
+    "typescript": "^5.7.2"
+  }
+}
